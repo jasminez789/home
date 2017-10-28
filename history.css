@@ -1,0 +1,79 @@
+body
+{
+	background-image: url("./images/background.jpg");
+	background-size: 1400px 1000px;
+	background-repeat: no-repeat;
+}
+
+#header
+{
+	text-align: center;
+	font-size: 30pt;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+p.para
+{
+	padding: 10px 115px 15px 115px;
+	font-size: 16pt;
+	font-family: Verdana, Geneva, sans-serif;
+	text-indent: 50px;
+}
+
+h3.sub
+{
+	padding: 10px 115px 15px 115px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#top
+{
+	
+}
+
+#mySidenav a
+{
+	position: absolute;
+	left: -80px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 100px;
+	text-decoration: none;
+	font-size: 17.35px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover 
+{
+	left: 0;
+}
+
+#home
+{
+	top: 20px;
+	background-color: #4CAF50;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#history
+{
+	top: 80px;
+	background-color: #2196F3;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#process
+{
+	top: 140px;
+	background-color: #f44336;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#types
+{
+	top: 200px;
+	background-color: #ff7100;
+	font-family: Verdana, Geneva, sans-serif;
+}
