@@ -1,8 +1,9 @@
 body
 {
-	background-image: url("./images/background.jpg");
-	background-size: 1400px 1000px;
+	background-image: url("./images/melting-chocolate.jpg");
 	background-repeat: no-repeat;
+	background-size: 1600px 900px;
+	background-attachment: fixed;
 }
 
 #header
@@ -10,30 +11,86 @@ body
 	text-align: center;
 	font-size: 30pt;
 	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+}
+
+#nav
+{
+	font-size: 16pt;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	padding: 7px 110px 15px 122px;
 }
 
 p.para
 {
-	padding: 10px 115px 15px 115px;
+	padding: 7px 110px 15px 122px;
 	font-size: 16pt;
 	font-family: Verdana, Geneva, sans-serif;
 	text-indent: 50px;
+	color: white;
+	text-align: justify;
 }
 
 h3.sub
 {
-	padding: 10px 115px 15px 115px;
+	padding: 10px 115px 0px 115px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+}
+
+a.goto
+{
+	color: red;
+	font-size: 16pt;
+}
+
+a.goto1
+{
+	color:red;
+	font-size: 16pt;
+	padding: 7px 110px 15px 122px;
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-#top
+#mayan
 {
-	
+	margin: auto;
+	display: block;
+	width: 400px;
+}
+
+#cortes-aztec
+{
+	margin: auto;
+	display: block;
+	width: 470px;
+}
+
+#fry-chocolate
+{
+	margin: auto;
+	display: block;
+	width: 480px;
+}
+
+#cadbury
+{
+	margin: auto;
+	display: block;
+	width: 450px;
+}
+ul.list
+{
+	padding: 10px 115px 15px 115px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	font-size: 16pt
 }
 
 #mySidenav a
 {
-	position: absolute;
+	position: fixed;
 	left: -80px;
 	transition: 0.3s;
 	padding: 15px;
